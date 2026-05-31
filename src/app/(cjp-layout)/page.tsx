@@ -416,9 +416,15 @@ export default function Home() {
 
               <ul className="list-none mt-10 flex flex-col gap-[18px]">
                 {CONTACT_ITEMS.map((item) => (
-                  <li key={item.label} className="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-2 sm:gap-6 pb-4 border-b border-[rgba(26,17,8,0.15)] items-baseline">
-                    <span className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-ink-3">{item.label}</span>
-                    <span className="font-sans text-[15px] sm:text-[16px] text-ink font-medium flex flex-col gap-1">
+                  <li key={item.label} className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-4 pb-4 border-b border-[rgba(26,17,8,0.15)]">
+                    <span className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-ink-3 sm:w-[88px] sm:shrink-0">
+                      {item.label}
+                    </span>
+                    <span
+                      className={`font-sans text-[15px] sm:text-[16px] text-ink font-medium flex flex-col gap-1 min-w-0 ${
+                        item.label === "Email" ? "max-w-[20ch] sm:max-w-[22ch] break-all" : ""
+                      }`}
+                    >
                       {item.value}
                       {item.subValue && (
                         <span className="font-mono text-[10.5px] tracking-[0.2em] uppercase text-ink-3 font-normal">
