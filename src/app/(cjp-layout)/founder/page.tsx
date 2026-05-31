@@ -74,7 +74,7 @@ export default function FounderPage() {
               <h1 className="font-display font-normal text-[clamp(44px,6vw,84px)] leading-[0.9] tracking-[-0.01em] text-ink">
                 Founder.
                 <br />
-                <span className="text-green font-['Georgia',serif] italic tracking-[-0.02em]">Ritesh Dutta, United People's Front.</span>
+                <span className="text-green font-['Georgia',serif] italic tracking-[-0.02em]">Ritesh Dutta, United People&apos;s Front.</span>
               </h1>
               <p className="font-sans text-[18px] leading-[1.6] text-ink-2 mt-6">
                 {SITE_INFO.SITE_FULL_NAME} keeps the same visual language everywhere. This page gives the founder a dedicated space to explain the background, values, and purpose behind UPF without changing the site-wide theme, header, footer, or layout structure.
@@ -161,7 +161,7 @@ export default function FounderPage() {
                 </span>
                 <p className="font-display text-[28px] leading-[1.05] text-ink mb-2">Ritesh Dutta</p>
                 <p className="font-sans text-[14px] leading-[1.6] text-ink-2">
-                  Founder, United People's Front (UPF)
+                  Founder, United People&apos;s Front (UPF)
                 </p>
               </div>
             )}

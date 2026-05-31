@@ -52,7 +52,7 @@ export default function SecurityAdvisory({ initialFlaggedDomains }: SecurityAdvi
               </h2>
 
               <p className="font-sans text-[16px] leading-[1.6] text-ink-2 mb-6 font-medium">
-                United People's Front (UPF) is a satirical, 100% free, zero-sponsor, and zero-donation youth movement. We **NEVER** solicit donations, charge membership registration fees, or request payment information of any kind.
+                United People&apos;s Front (UPF) is a satirical, 100% free, zero-sponsor, and zero-donation youth movement. We **NEVER** solicit donations, charge membership registration fees, or request payment information of any kind.
               </p>
 
               <div className="border-s-4 border-blood ps-4 py-3 bg-paper-2 border-y border-e pe-4 mb-8">
