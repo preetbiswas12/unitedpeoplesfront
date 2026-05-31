@@ -422,13 +422,13 @@ export default function Home() {
                     </span>
                     <span
                       className={`font-sans text-[15px] sm:text-[16px] text-ink font-medium flex flex-col gap-1 min-w-0 w-full ${
-                        item.label === "Email" ? "sm:max-w-[22ch]" : ""
+                        item.label === "Email" ? "max-w-[17ch] sm:max-w-[22ch] break-all whitespace-normal" : ""
                       }`}
                     >
                       {item.label === "Email" ? (
                         <>
-                          <span className="block break-keep">unitedpeoplesfrontofficial</span>
-                          <span className="block break-keep">@gmail.com</span>
+                          <span className="block break-all">unitedpeoplesfrontofficial</span>
+                          <span className="block break-all">@gmail.com</span>
                         </>
                       ) : (
                         item.value
