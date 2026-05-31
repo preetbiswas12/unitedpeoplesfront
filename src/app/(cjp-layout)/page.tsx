@@ -416,9 +416,9 @@ export default function Home() {
 
               <ul className="list-none mt-10 flex flex-col gap-[18px]">
                 {CONTACT_ITEMS.map((item) => (
-                  <li key={item.label} className="grid grid-cols-[110px_1fr] gap-6 pb-4 border-b border-[rgba(26,17,8,0.15)] items-baseline">
+                  <li key={item.label} className="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-2 sm:gap-6 pb-4 border-b border-[rgba(26,17,8,0.15)] items-baseline">
                     <span className="font-mono text-[10.5px] tracking-[0.22em] uppercase text-ink-3">{item.label}</span>
-                    <span className="font-sans text-[16px] text-ink font-medium flex flex-col gap-1">
+                    <span className="font-sans text-[15px] sm:text-[16px] text-ink font-medium flex flex-col gap-1">
                       {item.value}
                       {item.subValue && (
                         <span className="font-mono text-[10.5px] tracking-[0.2em] uppercase text-ink-3 font-normal">
@@ -431,7 +431,7 @@ export default function Home() {
               </ul>
 
               {/* Campaign Poster occupying empty left side space */}
-              <div className="mt-12 relative max-w-[480px] w-full border-[3px] border-ink shadow-[8px_8px_0_var(--color-ink)] bg-paper overflow-hidden">
+              <div className="mt-12 relative mx-auto lg:mx-0 max-w-[480px] w-full border-[3px] border-ink shadow-[8px_8px_0_var(--color-ink)] bg-paper overflow-hidden">
                 <a
                   href=" "
                   target="_blank"
