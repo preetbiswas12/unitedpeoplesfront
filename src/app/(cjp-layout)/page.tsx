@@ -401,7 +401,7 @@ export default function Home() {
         <div className="max-w-[1280px] mx-auto px-5 sm:px-8 lg:px-[56px]">
           <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-10 sm:gap-12 lg:gap-[80px] items-start">
 
-            <div className="flex flex-col w-full min-w-0">
+            <div className="flex flex-col w-full min-w-0 max-w-none">
               <span className="font-mono text-[11px] tracking-[0.22em] uppercase text-ink-2 mb-4 block">
                 Get in touch
               </span>
@@ -410,7 +410,7 @@ export default function Home() {
                 <br />
                 with us.
               </h2>
-              <p className="font-sans text-[18px] leading-[1.55] text-ink-2 max-w-full lg:max-w-[560px]">
+              <p className="font-sans text-[18px] leading-[1.55] text-ink-2 max-w-none lg:max-w-[560px]">
                 Want to join, volunteer, complain, or send a meme? Use the form. We read everything. We reply to most things.
               </p>
 
@@ -422,10 +422,17 @@ export default function Home() {
                     </span>
                     <span
                       className={`font-sans text-[15px] sm:text-[16px] text-ink font-medium flex flex-col gap-1 min-w-0 w-full ${
-                        item.label === "Email" ? "max-w-[17ch] sm:max-w-[22ch] break-all" : ""
+                        item.label === "Email" ? "sm:max-w-[22ch]" : ""
                       }`}
                     >
-                      {item.value}
+                      {item.label === "Email" ? (
+                        <>
+                          <span className="block break-keep">unitedpeoplesfrontofficial</span>
+                          <span className="block break-keep">@gmail.com</span>
+                        </>
+                      ) : (
+                        item.value
+                      )}
                       {item.subValue && (
                         <span className="font-mono text-[10.5px] tracking-[0.2em] uppercase text-ink-3 font-normal">
                           {item.subValue}
