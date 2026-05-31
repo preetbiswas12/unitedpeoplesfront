@@ -99,31 +99,41 @@ export const MANIFESTO_DEMANDSfor = [
     num: "01",
     textBefore: "A broken drain, a dark street, garbage in one corner, unsafe roads, small issues often become big struggles for ordinary people.",
     textHighlight: "We believe no local problem is “too small” ",
-    textAfter: "if it affects people’s daily lives."
+    textAfter: "if it affects people’s daily lives.",
+    textHighlight2: "",
+    textAfter2: ""
   },
   {
     num: "02",
     textBefore: "Before opinions, parties, or positions, there are people.",
     textHighlight: "Every decision, effort, and action should first answer one question:",
-    textAfter: "Does this genuinely help the people?"
+    textAfter: "Does this genuinely help the people?",
+    textHighlight2: "",
+    textAfter2: ""
   },
   {
     num: "03",
     textBefore: "Too many people feel ignored.",
     textHighlight: "We want to build a culture where citizens, especially ordinary residents, women, senior citizens, and youth, are listened ",
     textAfter: "to before decisions are spoken for them.",
+    textHighlight2: "",
+    textAfter2: "",
   },
   {
     num: "04",
     textBefore: "We do not believe in symbolic plantation drives for photos",
     textHighlight: "We believe in greener communities through responsibility, tree survival, and long-term care",
-    textAfter: "because nature deserves commitment, not campaigns."
+    textAfter: "because nature deserves commitment, not campaigns.",
+    textHighlight2: "",
+    textAfter2: ""
   },
   {
     num: "05",
     textBefore: "A stronger locality is built when",
     textHighlight: "people move from saying “someone should do something” to “let us do something together.”",
-    textAfter: "We want to encourage communities where responsibility becomes collective."
+    textAfter: "We want to encourage communities where responsibility becomes collective.",
+    textHighlight2: "",
+    textAfter2: ""
   }
 ];
 
