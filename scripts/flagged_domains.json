@@ -1,0 +1,729 @@
+{
+  "investigation_metadata": {
+    "target_name": "Cockroach Janta Community (CJP)",
+    "investigation_date": "2026-05-24",
+    "legitimate_domains_excluded": [
+      "cjpgenz.com",
+      "petition.cjpgenz.com",
+      "www.cjpgenz.com",
+      "cockroachjantaCommunity.org",
+      "petition.cockroachjantaCommunity.org"
+    ],
+    "disclaimer": "The legitimate Cockroach Janta Community movement is a satirical, zero-sponsor youth initiative. It does NOT ask for any donations, membership registration fees, or payments. Any site soliciting funds, credit card information, or UPI transactions is fraudulent.",
+    "cyber_reporting_helpline": "1930 (National Cyber Helpline, India)"
+  },
+  "flagged_domains": [
+    {
+      "domain": "cackroachjantaCommunity.com",
+      "url": "https://cackroachjantaCommunity.com",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (soliciting unsolicited movement donations, selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (soliciting unsolicited movement donations, selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cackroachjantaCommunity.in",
+      "url": "https://cackroachjantaCommunity.in",
+      "reason": "Active lookalike/squatted domain resolved on the network during scanning.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjp.co",
+      "url": "https://cjp.co",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjp.com",
+      "url": "https://cjp.com",
+      "reason": "Impersonation site actively engaged in: Phishing (password login forms). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (password login forms)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting password login forms"
+      ]
+    },
+    {
+      "domain": "cjp.in",
+      "url": "https://cjp.in",
+      "reason": "Active lookalike/squatted domain resolved on the network during scanning.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjp.net",
+      "url": "https://cjp.net",
+      "reason": "Impersonation site actively engaged in: Adware (unauthorized Google AdSense blocks), Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Adware (unauthorized Google AdSense blocks) & Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Injecting unauthorized Google AdSense blocks",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjp.org",
+      "url": "https://cjp.org",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting displaying direct UPI payment links or transaction codes"
+      ]
+    },
+    {
+      "domain": "cjp.xyz",
+      "url": "https://cjp.xyz",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjpapp.online",
+      "url": "https://cjpapp.online",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjpcoin.com",
+      "url": "https://cjpcoin.com",
+      "reason": "Impersonation site actively engaged in: Phishing (password login forms), Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (password login forms) & Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting password login forms",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjpcoin.in",
+      "url": "https://cjpcoin.in",
+      "reason": "Active lookalike/squatted domain resolved on the network during scanning.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjpjoin.com",
+      "url": "https://cjpjoin.com",
+      "reason": "Impersonation site actively engaged in: Phishing (password login forms). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (password login forms)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting password login forms"
+      ]
+    },
+    {
+      "domain": "cjpmember.com",
+      "url": "https://cjpmember.com",
+      "reason": "Impersonation site actively engaged in: Phishing (OTP intercept screens, payment/banking credential fields), Financial Fraud (displaying direct UPI payment links or transaction codes). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (OTP intercept screens, payment/banking credential fields) & Financial Fraud (displaying direct UPI payment links or transaction codes)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting OTP intercept screens",
+        "Harvesting payment/banking credential fields",
+        "Soliciting displaying direct UPI payment links or transaction codes"
+      ]
+    },
+    {
+      "domain": "cjpmember.in",
+      "url": "https://cjpmember.in",
+      "reason": "Impersonation site actively engaged in: Phishing (payment/banking credential fields). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (payment/banking credential fields)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting payment/banking credential fields"
+      ]
+    },
+    {
+      "domain": "cjpofficial.co",
+      "url": "https://cjpofficial.co",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjpofficial.com",
+      "url": "https://cjpofficial.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjpofficial.in",
+      "url": "https://cjpofficial.in",
+      "reason": "Impersonation site actively engaged in: Phishing (OTP intercept screens, payment/banking credential fields), Financial Fraud (displaying direct UPI payment links or transaction codes, selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (OTP intercept screens, payment/banking credential fields) & Financial Fraud (displaying direct UPI payment links or transaction codes, selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting OTP intercept screens",
+        "Harvesting payment/banking credential fields",
+        "Soliciting displaying direct UPI payment links or transaction codes",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjpofficial.org",
+      "url": "https://cjpofficial.org",
+      "reason": "Active lookalike/squatted domain resolved on the network during scanning.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjpCommunity.com",
+      "url": "https://cjpCommunity.com",
+      "reason": "Impersonation site actively engaged in: Adware (quge5.com adware redirect tag, unauthorized Google AdSense blocks), Financial Fraud (soliciting unsolicited movement donations, selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Adware (quge5.com adware redirect tag, unauthorized Google AdSense blocks) & Financial Fraud (soliciting unsolicited movement donations, selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Injecting quge5.com adware redirect tag",
+        "Injecting unauthorized Google AdSense blocks",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjpCommunity.in",
+      "url": "https://cjpCommunity.in",
+      "reason": "Impersonation site actively engaged in: Phishing (password login forms), Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (password login forms) & Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting password login forms",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjpCommunity.online",
+      "url": "https://cjpCommunity.online",
+      "reason": "Impersonation site actively engaged in: Phishing (password login forms, OTP intercept screens, payment/banking credential fields). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (password login forms, OTP intercept screens, payment/banking credential fields)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting password login forms",
+        "Harvesting OTP intercept screens",
+        "Harvesting payment/banking credential fields"
+      ]
+    },
+    {
+      "domain": "cjpCommunity.org",
+      "url": "https://cjpCommunity.org",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cjptoken.com",
+      "url": "https://cjptoken.com",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (soliciting unsolicited movement donations, selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (soliciting unsolicited movement donations, selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjptoken.net",
+      "url": "https://cjptoken.net",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cjpvote.com",
+      "url": "https://cjpvote.com",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cockroachesjantaCommunity.com",
+      "url": "https://cockroachesjantaCommunity.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachesjantaCommunity.org",
+      "url": "https://cockroachesjantaCommunity.org",
+      "reason": "Impersonation site actively engaged in: Phishing (payment/banking credential fields). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (payment/banking credential fields)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting payment/banking credential fields"
+      ]
+    },
+    {
+      "domain": "cockroachjanata.com",
+      "url": "https://cockroachjanata.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjanata.in",
+      "url": "https://cockroachjanata.in",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjanata.org",
+      "url": "https://cockroachjanata.org",
+      "reason": "Impersonation site actively engaged in: Adware (unauthorized Google AdSense blocks), Phishing (OTP intercept screens). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Adware (unauthorized Google AdSense blocks) & Phishing (OTP intercept screens)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Injecting unauthorized Google AdSense blocks",
+        "Harvesting OTP intercept screens"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.co",
+      "url": "https://cockroachjanataCommunity.co",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.com",
+      "url": "https://cockroachjanataCommunity.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.net",
+      "url": "https://cockroachjanataCommunity.net",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.online",
+      "url": "https://cockroachjanataCommunity.online",
+      "reason": "Impersonation site actively engaged in: Adware (unauthorized Google AdSense blocks). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Adware (unauthorized Google AdSense blocks)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Injecting unauthorized Google AdSense blocks"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.org",
+      "url": "https://cockroachjanataCommunity.org",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.site",
+      "url": "https://cockroachjanataCommunity.site",
+      "reason": "Impersonation site actively engaged in: Phishing (payment/banking credential fields). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (payment/banking credential fields)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting payment/banking credential fields"
+      ]
+    },
+    {
+      "domain": "cockroachjanataCommunity.xyz",
+      "url": "https://cockroachjanataCommunity.xyz",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (displaying direct UPI payment links or transaction codes). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (displaying direct UPI payment links or transaction codes)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting displaying direct UPI payment links or transaction codes"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.buzz",
+      "url": "https://cockroachjantaCommunity.buzz",
+      "reason": "Impersonation site actively engaged in: Adware (unauthorized Google AdSense blocks), Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes, selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Adware (unauthorized Google AdSense blocks) & Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes, selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Injecting unauthorized Google AdSense blocks",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting displaying direct UPI payment links or transaction codes",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.co",
+      "url": "https://cockroachjantaCommunity.co",
+      "reason": "Impersonation site actively engaged in: Phishing (OTP intercept screens, payment/banking credential fields), Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes, charging fee for volunteer registration). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (OTP intercept screens, payment/banking credential fields) & Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes, charging fee for volunteer registration)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting OTP intercept screens",
+        "Harvesting payment/banking credential fields",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting displaying direct UPI payment links or transaction codes",
+        "Soliciting charging fee for volunteer registration"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.com",
+      "url": "https://cockroachjantaCommunity.com",
+      "reason": "Active lookalike/squatted domain resolved on the network during scanning.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.net",
+      "url": "https://cockroachjantaCommunity.net",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.online",
+      "url": "https://cockroachjantaCommunity.online",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.site",
+      "url": "https://cockroachjantaCommunity.site",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunity.xyz",
+      "url": "https://cockroachjantaCommunity.xyz",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunitycoin.com",
+      "url": "https://cockroachjantaCommunitycoin.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunityjoin.com",
+      "url": "https://cockroachjantaCommunityjoin.com",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (displaying direct UPI payment links or transaction codes). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (displaying direct UPI payment links or transaction codes)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting displaying direct UPI payment links or transaction codes"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunityjoin.in",
+      "url": "https://cockroachjantaCommunityjoin.in",
+      "reason": "Impersonation site actively engaged in: Phishing (payment/banking credential fields). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (payment/banking credential fields)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting payment/banking credential fields"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunityofficial.com",
+      "url": "https://cockroachjantaCommunityofficial.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunityofficial.net",
+      "url": "https://cockroachjantaCommunityofficial.net",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunityofficial.org",
+      "url": "https://cockroachjantaCommunityofficial.org",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    },
+    {
+      "domain": "cockroachjantaCommunityy.com",
+      "url": "https://cockroachjantaCommunityy.com",
+      "reason": "Dormant but registered lookalike typosquatting target. Pre-emptively flagged to prevent future phishing launches.",
+      "risk_level": "Critical",
+      "category": "Dormant Squatted Threat",
+      "detected_activities": [
+        "Registered domain with active nameservers",
+        "Pre-emptively flagged for visitor safety"
+      ]
+    },
+    {
+      "domain": "joincjp.in",
+      "url": "https://joincjp.in",
+      "reason": "Impersonation site actively engaged in: Phishing (OTP intercept screens). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (OTP intercept screens)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting OTP intercept screens"
+      ]
+    },
+    {
+      "domain": "joincjp.org",
+      "url": "https://joincjp.org",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (soliciting unsolicited movement donations). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (soliciting unsolicited movement donations)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting soliciting unsolicited movement donations"
+      ]
+    },
+    {
+      "domain": "officialcjp.com",
+      "url": "https://officialcjp.com",
+      "reason": "Impersonation site actively engaged in: Phishing (payment/banking credential fields), Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes, charging fee for volunteer registration). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (payment/banking credential fields) & Financial Fraud (soliciting unsolicited movement donations, displaying direct UPI payment links or transaction codes, charging fee for volunteer registration)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting payment/banking credential fields",
+        "Soliciting soliciting unsolicited movement donations",
+        "Soliciting displaying direct UPI payment links or transaction codes",
+        "Soliciting charging fee for volunteer registration"
+      ]
+    },
+    {
+      "domain": "officialcjp.online",
+      "url": "https://officialcjp.online",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "officialcjp.org",
+      "url": "https://officialcjp.org",
+      "reason": "Impersonation site actively engaged in: Financial Fraud (selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Financial Fraud (selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "officialcjp.site",
+      "url": "https://officialcjp.site",
+      "reason": "Impersonation site actively engaged in: Phishing (password login forms, OTP intercept screens, payment/banking credential fields), Financial Fraud (displaying direct UPI payment links or transaction codes, selling fake movement merchandise). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (password login forms, OTP intercept screens, payment/banking credential fields) & Financial Fraud (displaying direct UPI payment links or transaction codes, selling fake movement merchandise)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting password login forms",
+        "Harvesting OTP intercept screens",
+        "Harvesting payment/banking credential fields",
+        "Soliciting displaying direct UPI payment links or transaction codes",
+        "Soliciting selling fake movement merchandise"
+      ]
+    },
+    {
+      "domain": "officialcockroachjantaCommunity.com",
+      "url": "https://officialcockroachjantaCommunity.com",
+      "reason": "Impersonation site actively engaged in: Phishing (payment/banking credential fields). Avoid visiting to protect credentials and funds.",
+      "risk_level": "Critical",
+      "category": "Phishing (payment/banking credential fields)",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests",
+        "Harvesting payment/banking credential fields"
+      ]
+    },
+    {
+      "domain": "votecjp.com",
+      "url": "https://votecjp.com",
+      "reason": "Active lookalike domain mimicking official CJP channels with live HTTP hosting.",
+      "risk_level": "Critical",
+      "category": "Potential Phishing & Impersonation",
+      "detected_activities": [
+        "Active DNS resolution pointing to a live IP address",
+        "Active HTTP server responding to secure requests"
+      ]
+    }
+  ]
+}

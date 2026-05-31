@@ -1,0 +1,34 @@
+name: Scan Lookalike Domains
+
+on:
+  schedule:
+    # Run twice a day (Midnight & Noon UTC) to capture both overnight and daytime registrations
+    - cron: '0 0,12 * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Lookalike Scanner
+        run: python scripts/scan_and_update.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: auto-update active lookalike threat domains"
+          title: "chore: auto-update active lookalike threat domains"
+          body: "New active threat domains detected by the Lookalike Scanner."
+          branch: "auto-update-threat-domains"
+          auto-merge: true
