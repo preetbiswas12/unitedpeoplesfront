@@ -28,6 +28,25 @@ function SackPetitionBadgeFallback() {
 
 export default function Home() {
   const petitionCountPromise = getPetitionCount();
+
+  function renderContactValue(item: (typeof CONTACT_ITEMS)[number]) {
+    if (!item.value.includes("@")) {
+      return item.value;
+    }
+
+    const [localPart, domain = ""] = item.value.split("@");
+    const splitPoint = Math.ceil(localPart.length / 2);
+    const firstLine = localPart.slice(0, splitPoint);
+    const secondLine = `${localPart.slice(splitPoint)}@${domain}`;
+
+    return (
+      <>
+        <span className="block w-full whitespace-normal break-words">{firstLine}</span>
+        <span className="block w-full whitespace-normal break-words">{secondLine}</span>
+      </>
+    );
+  }
+
   return (
     <>
       {/* HERO SECTION */}
@@ -422,17 +441,10 @@ export default function Home() {
                     </span>
                     <span
                       className={`font-sans text-[15px] sm:text-[16px] text-ink font-medium flex flex-col gap-1 min-w-0 w-full ${
-                        item.value.includes("@") ? "max-w-[17ch] sm:max-w-[22ch]" : ""
+                        item.value.includes("@") ? "max-w-full sm:max-w-[22ch]" : ""
                       }`}
                     >
-                      {item.value.includes("@") ? (
-                        <>
-                          <span className="block whitespace-normal break-words">{item.value.split("@")[0]}</span>
-                          <span className="block whitespace-normal break-words">@{item.value.split("@")[1]}</span>
-                        </>
-                      ) : (
-                        item.value
-                      )}
+                      {renderContactValue(item)}
                       {item.subValue && (
                         <span className="font-mono text-[10.5px] tracking-[0.2em] uppercase text-ink-3 font-normal">
                           {item.subValue}
